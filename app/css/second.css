@@ -1,0 +1,122 @@
+@font-face {
+  font-family: CanterBold;
+  src: url("../fonts/Canter Bold.otf"); }
+
+@font-face {
+  font-family: Georgia;
+  src: url("../fonts/Georgia.ttf"); }
+
+body {
+  background-image: url("../img/Body background.png");
+  background-size: cover; }
+
+.wrapper {
+  width: 1240px;
+  height: 1850px;
+  background-image: url("../img/Content Background.png");
+  margin: 6% auto 15% auto; }
+  .wrapper .main {
+    position: relative;
+    left: 625px;
+    top: 220px; }
+    .wrapper .main-text {
+      font-family: CanterBold;
+      font-weight: 400;
+      color: #f2eee2;
+      text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.35); }
+      .wrapper .main-text-1 {
+        font-size: 6.5em; }
+      .wrapper .main-text-2 {
+        font-size: 13.313em;
+        margin: -135px 0 -90px -4px; }
+      .wrapper .main-text-3 {
+        font-size: 5.875em; }
+  .wrapper .content-top-text {
+    margin: 11em auto 0 auto;
+    font-family: CanterBold;
+    color: #515253;
+    font-size: 4.5em;
+    font-weight: 400;
+    line-height: 0.5;
+    text-align: center; }
+  .wrapper .content-join {
+    position: relative;
+    margin: 2em 0 0 7%; }
+    .wrapper .content-join div {
+      display: inline-block;
+      margin-right: 2em; }
+      .wrapper .content-join div a {
+        position: absolute;
+        top: 21.4%;
+        left: 12.5%; }
+        .wrapper .content-join div a img {
+          padding: 4em 6em; }
+    .wrapper .content-join-end {
+      float: left;
+      margin-left: 39%;
+      margin-top: 2.5em; }
+      .wrapper .content-join-end img {
+        position: absolute;
+        margin-left: -20px;
+        margin-top: 16px; }
+      .wrapper .content-join-end .text {
+        font-family: Georgia;
+        color: #32363a;
+        font-size: 1em; }
+      .wrapper .content-join-end .all-text {
+        color: #4c555d;
+        margin-top: -7px; }
+  .wrapper .footer {
+    position: relative;
+    margin: 15% 0 0 40%; }
+    .wrapper .footer a {
+      margin-right: 4em; }
+
+.bolt {
+  position: absolute; }
+
+  .bolt1 {
+    position: absolute;
+    margin: -310px 0 0 -240px;
+  }
+  .bolt2 {
+    position: absolute;
+    margin: -390px 0 0 -800px; 
+  }
+  .bolt3 {
+    position: absolute;
+    margin: -390px 0 0 -355px;
+  }
+
+.input-form {
+  position: absolute;
+  font-style: italic; border: none; background-color: transparent; outline: none;
+}
+
+.first {
+  margin: -223px 0 0 78px;
+}
+
+.second {
+  margin: -223px 0 0 285px;
+}
+
+.third {
+  margin: -180px 0 0 78px;
+}
+
+.submit {
+  margin: -90px 0 0 220px;
+  font-family: CanterBold;
+  text-transform: uppercase;
+  color:  #fefdfb;
+  font-size: 31px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 400;
+  line-height: 36px;/* Приближение из-за подстановки шрифтов */
+  text-shadow: 1px 1px 1px rgb(47, 53, 60);
+  font-style: normal;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+
+}

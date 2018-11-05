@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../css/second.css">
+	<link rel="stylesheet" href="../css/Animation/buzz-out.css">
+	<title>GET READY</title>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="main">
+			<div class="bolt">
+				<div class="bolt1">
+					<img src="../img/bolt.png" alt="">
+				</div>
+				<div class="bolt2">
+					<img src="../img/bolt2.png" alt="">
+				</div>
+				<div class="bolt3">
+					<img src="../img/bolt3.png" alt="">
+				</div>
+			</div>
+			<div class="main-text">
+				<p class="main-text-1">feel the excitement</p>
+				<p class="main-text-2">get ready</p>
+				<p class="main-text-3">we are comming soon</p>
+			</div>
+		</div>
+		<div class="content">
+			<p class="content-top-text">WANT TO JOIN US?</p>
+			<div class="content-join">
+				<div>
+					<img src="../img/map2.png" alt="Map">
+					<a class="buzz-out" href="https://www.google.ru/maps/@51.4778427,-0.0159603,17z"><img src="../img/icon.png" alt=""></a>
+				</div>
+				<div>
+					<img src="../img/contact form.png" alt="">
+					<input class="input-form first" type="text" placeholder="Your name">
+					<input class="input-form second" type="text" placeholder="Your email">
+					<input class="input-form third" type="text" placeholder="Your message">
+					<input class="input-form submit" type="submit" value="Submit">
+				</div>
+			<div class="content-join-end">
+				<img src="../img/icon2.png" alt="">
+				<p class="text">185 Greenwich High Road</p>
+				<p class="text all-text">London SE10 8JA<br>United Kingdom</p>
+				<p class="text all-text">0044 987654321</p>
+			</div>		
+		</div>
+		<div class="footer">
+			<a href="#"><img src="../img/icon4.png" alt=""></a>
+			<a href="#"><img src="../img/icon5.png" alt=""></a>
+			<a href="#"><img src="../img/icon6.png" alt=""></a>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+		function blink(){
+		    $('.bolt1')
+		    .fadeOut('fast')
+		    .fadeIn('fast');
+
+		    setTimeout(blink,800);
+		}
+
+		blink();
+		});
+	</script>
+	<script>
+		$(document).ready(function() {
+		function blink(){
+		    $('.bolt3')
+		    .fadeOut('fast')
+		    .fadeIn('fast');
+
+		    setTimeout(blink,900);
+		}
+
+		blink();
+		});
+	</script>
+	<script>
+		$(document).ready(function() {
+		function blink(){
+		    $('.bolt2')
+		    .fadeOut('fast')
+		    .fadeIn('fast');
+
+		    setTimeout(blink,1000);
+		}
+
+		blink();
+		});
+	</script>
+</body>
+</html>

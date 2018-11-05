@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000; }
+
+header {
+  height: 519px;
+  position: relative; }
+  header .parallax {
+    margin: 0;
+    padding: 0; }
+    header .parallax .scene {
+      width: 100%;
+      position: absolute;
+      -webkit-transform: translateY(var(--translateY));
+          -ms-transform: translateY(var(--translateY));
+              transform: translateY(var(--translateY));
+      will-change: transform; }
+
+section .next {
+  height: 519px;
+  position: relative;
+  background: -webkit-gradient(linear, left bottom, left top, from(grey), to(#000));
+  background: -webkit-linear-gradient(bottom, grey, #000);
+  background: -o-linear-gradient(bottom, grey, #000);
+  background: linear-gradient(0deg, grey, #000); }
+
+section .next2 {
+  height: 519px;
+  position: relative;
+  background: -webkit-gradient(linear, left top, left bottom, from(grey), to(#fff));
+  background: -webkit-linear-gradient(top, grey, #fff);
+  background: -o-linear-gradient(top, grey, #fff);
+  background: linear-gradient(180deg, grey, #fff); }
